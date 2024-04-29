@@ -1,3 +1,4 @@
+
 package com.mk.entity;
 
 import jakarta.persistence.Entity;
@@ -21,4 +22,5 @@ public class Employee {
 	private Double empSalary;
 	private Long empYOJ;
 	private String empDepartment;
+	private Integer addressId;
 }
